@@ -1,0 +1,15 @@
+{
+  "name": "psittacus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Select an area of any page and translate the text in it, on your own computer.",
+  "license": "MIT",
+  "scripts": {
+    "vendor": "node scripts/vendor.mjs",
+    "pack": "bash scripts/pack.sh"
+  },
+  "devDependencies": {
+    "tesseract.js": "7.0.0",
+    "tesseract.js-core": "7.0.0"
+  }
+}

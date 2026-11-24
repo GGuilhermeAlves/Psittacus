@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Psittacus</title>
+<link rel="stylesheet" href="options.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="../icons/icon128.png" alt="" width="56" height="56">
+    <div>
+      <h1>Psittacus</h1>
+      <p class="sub" data-i18n="optionsTitle"></p>
+    </div>
+  </header>
+
+  <section>
+    <label class="row" for="target">
+      <span data-i18n="optTarget"></span>
+      <select id="target"></select>
+    </label>
+  </section>
+
+  <section>
+    <h2 data-i18n="optOcr"></h2>
+    <p class="hint" data-i18n="optOcrHint"></p>
+    <div id="langs" class="grid"></div>
+  </section>
+
+  <section>
+    <label class="row" for="launcher">
+      <span data-i18n="optLauncher"></span>
+      <select id="launcher">
+        <option value="off" data-i18n="launcherOff"></option>
+        <option value="corner" data-i18n="launcherCorner"></option>
+        <option value="images" data-i18n="launcherImages"></option>
+        <option value="both" data-i18n="launcherBoth"></option>
+      </select>
+    </label>
+    <p class="hint" data-i18n="optLauncherHint"></p>
+    <label class="row sub-row" for="corner" id="cornerRow">
+      <span data-i18n="optCorner"></span>
+      <select id="corner">
+        <option value="br" data-i18n="cornerBR"></option>
+        <option value="bl" data-i18n="cornerBL"></option>
+        <option value="tr" data-i18n="cornerTR"></option>
+        <option value="tl" data-i18n="cornerTL"></option>
+      </select>
+    </label>
+    <p class="hint" id="permHint" data-i18n="optLauncherPerm"></p>
+    <div class="row sub-row" id="hiddenRow" hidden>
+      <span id="hiddenText" class="muted"></span>
+      <button type="button" id="showAll" data-i18n="showEverywhere"></button>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <span data-i18n="optShortcut"></span>
+      <kbd>Alt</kbd><kbd>Shift</kbd><kbd>T</kbd>
+    </div>
+    <p class="hint" data-i18n="optShortcutHint"></p>
+  </section>
+
+  <p class="privacy" data-i18n="optPrivacy"></p>
+  <div id="saved" class="saved" data-i18n="saved" hidden></div>
+</main>
+<script type="module" src="options.js"></script>
+</body>
+</html>

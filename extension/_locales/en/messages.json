@@ -1,0 +1,161 @@
+{
+  "extDescription": {
+    "message": "Select any area of a page and translate the text in it instantly, like a temporary screenshot. Runs entirely on your computer."
+  },
+  "actionTitle": {
+    "message": "Translate an area (Psittacus)"
+  },
+  "menuArea": {
+    "message": "Translate an area"
+  },
+  "menuImage": {
+    "message": "Translate this image"
+  },
+  "hintSelect": {
+    "message": "Drag to select what to translate"
+  },
+  "hintEsc": {
+    "message": "Esc to cancel"
+  },
+  "reading": {
+    "message": "Reading text…"
+  },
+  "translating": {
+    "message": "Translating…"
+  },
+  "noText": {
+    "message": "No text found in this area"
+  },
+  "showOriginal": {
+    "message": "Original"
+  },
+  "showTranslation": {
+    "message": "Translation"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "sameLang": {
+    "message": "The text is already in {lang}"
+  },
+  "noTranslator": {
+    "message": "Chrome's built-in translator isn't available here. It needs Chrome 138 or newer on desktop."
+  },
+  "unsupportedPair": {
+    "message": "Chrome can't translate from {src} to {dst} yet."
+  },
+  "downloadModel": {
+    "message": "Download the {src} → {dst} translator"
+  },
+  "downloadingModel": {
+    "message": "Downloading translator… {pct}%"
+  },
+  "ocrMissing": {
+    "message": "The OCR files are missing from the extension. See the README."
+  },
+  "captureFailed": {
+    "message": "Couldn't capture this page."
+  },
+  "restricted": {
+    "message": "Chrome doesn't allow extensions on this page."
+  },
+  "failed": {
+    "message": "Something went wrong: {msg}"
+  },
+  "optionsTitle": {
+    "message": "Psittacus settings"
+  },
+  "optTarget": {
+    "message": "Translate to"
+  },
+  "optOcr": {
+    "message": "Languages of the text in images"
+  },
+  "optOcrHint": {
+    "message": "Tick only the ones you usually read. The more languages, the slower the reading."
+  },
+  "optShortcut": {
+    "message": "Shortcut"
+  },
+  "optShortcutHint": {
+    "message": "Alt+Shift+T. To change it, open chrome://extensions/shortcuts."
+  },
+  "optPrivacy": {
+    "message": "Everything happens on your computer: capturing, reading and translating. Nothing is sent to any server."
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "langJpnVert": {
+    "message": "Japanese, vertical (manga)"
+  },
+  "langJpnVertHint": {
+    "message": "For vertical text. Select just the text inside the speech bubble, without its outline."
+  },
+  "romajiKept": {
+    "message": "Romaji (Japanese in Latin letters) is left as is"
+  },
+  "partlySame": {
+    "message": "Some text is already in {lang}"
+  },
+  "noTextHint": {
+    "message": "No text found. If it's Japanese, Chinese or Korean, tick that language in the options."
+  },
+  "options": {
+    "message": "Options"
+  },
+  "optLauncher": {
+    "message": "Button on the page"
+  },
+  "optLauncherHint": {
+    "message": "A shortcut to start Psittacus without the toolbar icon or Alt+Shift+T."
+  },
+  "launcherOff": {
+    "message": "Off"
+  },
+  "launcherCorner": {
+    "message": "In a corner of the window"
+  },
+  "launcherImages": {
+    "message": "Over images (on mouse hover)"
+  },
+  "launcherBoth": {
+    "message": "Both"
+  },
+  "optCorner": {
+    "message": "Corner"
+  },
+  "cornerBR": {
+    "message": "Bottom right"
+  },
+  "cornerBL": {
+    "message": "Bottom left"
+  },
+  "cornerTR": {
+    "message": "Top right"
+  },
+  "cornerTL": {
+    "message": "Top left"
+  },
+  "optLauncherPerm": {
+    "message": "Chrome will ask for access to the sites you visit, only to show the button. Nothing is read or captured until you click it. Already open tabs need a reload."
+  },
+  "permDenied": {
+    "message": "Without the permission the button can’t be shown."
+  },
+  "hiddenOn": {
+    "message": "Hidden on {n} site(s)"
+  },
+  "showEverywhere": {
+    "message": "Show on all sites"
+  },
+  "hideOnSite": {
+    "message": "Hide on this site"
+  }
+}

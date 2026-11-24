@@ -1,0 +1,161 @@
+{
+  "extDescription": {
+    "message": "Selecione qualquer área da página e traduza o texto dela na hora, como uma print temporária. Funciona todo no seu computador."
+  },
+  "actionTitle": {
+    "message": "Traduzir uma área (Psittacus)"
+  },
+  "menuArea": {
+    "message": "Traduzir uma área"
+  },
+  "menuImage": {
+    "message": "Traduzir esta imagem"
+  },
+  "hintSelect": {
+    "message": "Arraste para selecionar o que traduzir"
+  },
+  "hintEsc": {
+    "message": "Esc para cancelar"
+  },
+  "reading": {
+    "message": "Lendo o texto…"
+  },
+  "translating": {
+    "message": "Traduzindo…"
+  },
+  "noText": {
+    "message": "Não encontrei texto nessa área"
+  },
+  "showOriginal": {
+    "message": "Original"
+  },
+  "showTranslation": {
+    "message": "Tradução"
+  },
+  "copy": {
+    "message": "Copiar"
+  },
+  "copied": {
+    "message": "Copiado"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "sameLang": {
+    "message": "O texto já está em {lang}"
+  },
+  "noTranslator": {
+    "message": "O tradutor embutido do Chrome não está disponível aqui. Ele precisa do Chrome 138 ou mais novo, no computador."
+  },
+  "unsupportedPair": {
+    "message": "O Chrome ainda não traduz de {src} para {dst}."
+  },
+  "downloadModel": {
+    "message": "Baixar o tradutor {src} → {dst}"
+  },
+  "downloadingModel": {
+    "message": "Baixando o tradutor… {pct}%"
+  },
+  "ocrMissing": {
+    "message": "Faltam os arquivos do OCR na extensão. Veja o README."
+  },
+  "captureFailed": {
+    "message": "Não consegui capturar esta página."
+  },
+  "restricted": {
+    "message": "O Chrome não deixa extensões funcionarem nesta página."
+  },
+  "failed": {
+    "message": "Algo deu errado: {msg}"
+  },
+  "optionsTitle": {
+    "message": "Configurações do Psittacus"
+  },
+  "optTarget": {
+    "message": "Traduzir para"
+  },
+  "optOcr": {
+    "message": "Idiomas do texto nas imagens"
+  },
+  "optOcrHint": {
+    "message": "Marque só os que você costuma ler. Quanto mais idiomas, mais lenta fica a leitura."
+  },
+  "optShortcut": {
+    "message": "Atalho"
+  },
+  "optShortcutHint": {
+    "message": "Alt+Shift+T. Para mudar, abra chrome://extensions/shortcuts."
+  },
+  "optPrivacy": {
+    "message": "Tudo acontece no seu computador: a captura, a leitura e a tradução. Nada é enviado para nenhum servidor."
+  },
+  "saved": {
+    "message": "Salvo"
+  },
+  "langJpnVert": {
+    "message": "Japonês vertical (mangá)"
+  },
+  "langJpnVertHint": {
+    "message": "Para texto em pé. Selecione só o texto dentro do balão, sem o contorno."
+  },
+  "romajiKept": {
+    "message": "Romaji (japonês em letras latinas) fica como está"
+  },
+  "partlySame": {
+    "message": "Parte do texto já está em {lang}"
+  },
+  "noTextHint": {
+    "message": "Não encontrei texto. Se for japonês, chinês ou coreano, marque o idioma nas opções."
+  },
+  "options": {
+    "message": "Opções"
+  },
+  "optLauncher": {
+    "message": "Botão na página"
+  },
+  "optLauncherHint": {
+    "message": "Um atalho para começar a Psittacus sem o ícone da barra nem o Alt+Shift+T."
+  },
+  "launcherOff": {
+    "message": "Desligado"
+  },
+  "launcherCorner": {
+    "message": "No canto da janela"
+  },
+  "launcherImages": {
+    "message": "Sobre as imagens (ao passar o mouse)"
+  },
+  "launcherBoth": {
+    "message": "Os dois"
+  },
+  "optCorner": {
+    "message": "Canto"
+  },
+  "cornerBR": {
+    "message": "Inferior direito"
+  },
+  "cornerBL": {
+    "message": "Inferior esquerdo"
+  },
+  "cornerTR": {
+    "message": "Superior direito"
+  },
+  "cornerTL": {
+    "message": "Superior esquerdo"
+  },
+  "optLauncherPerm": {
+    "message": "O Chrome vai pedir acesso aos sites que você visita, só para mostrar o botão. Nada é lido nem capturado até você clicar nele. Abas já abertas precisam ser recarregadas."
+  },
+  "permDenied": {
+    "message": "Sem a permissão não dá para mostrar o botão."
+  },
+  "hiddenOn": {
+    "message": "Escondido em {n} site(s)"
+  },
+  "showEverywhere": {
+    "message": "Mostrar em todos os sites"
+  },
+  "hideOnSite": {
+    "message": "Esconder neste site"
+  }
+}

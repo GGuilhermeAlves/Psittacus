@@ -1,0 +1,26 @@
+name: Release
+
+# Publishing a GitHub Release (tag like v1.0.0) builds the zip and attaches it.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check version matches tag
+        run: |
+          V=$(node -p "require('./extension/manifest.json').version")
+          [ "v$V" = "${GITHUB_REF_NAME}" ] || { echo "manifest $V != tag ${GITHUB_REF_NAME}"; exit 1; }
+      - run: bash scripts/pack.sh
+      - run: gh release upload "${GITHUB_REF_NAME}" dist/*.zip --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
